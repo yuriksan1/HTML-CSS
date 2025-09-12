@@ -1,0 +1,30 @@
+body{
+    background-color: #2d592d;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: 1s;
+    margin-top:20px;
+}
+.box{
+    width: 220px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #9ce19c;
+    transition: 1s;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+span{
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
+}
+p{
+    padding-left: 10px;
+    margin: 10px 0 ;
+}
