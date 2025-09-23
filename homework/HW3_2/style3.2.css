@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Imperial Script", cursive;
+    gap: 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 40px;
+}
+
+section p {
+    font-size: 18px;
+    width: 80%;
+}
+
+.box-top {
+    background-color: #e3b09d;
+}
+
+.box-bottom {
+    background-color: black;
+    color: white;
+}
