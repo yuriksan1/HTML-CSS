@@ -1,0 +1,12 @@
+*{
+    font-size: 30px;
+}
+h1~p{
+    color: darkorchid;
+}
+div p{
+    color: #d03f0c;
+}
+div>div>p{
+    color: yellow;
+}

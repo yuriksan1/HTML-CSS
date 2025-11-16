@@ -1,0 +1,23 @@
+button:hover {
+    background-color: #d03f0c;
+}
+button:active {
+    background-color: #22C1C3;
+}
+a:link {
+    text-decoration: none;
+    color: #5454D4;
+}
+a:visited {
+    color: red;
+}
+li{
+    color: orange;
+}
+li::marker {
+    color: blue;
+}
+p::selection{
+    background-color: black;
+    color: white;
+}

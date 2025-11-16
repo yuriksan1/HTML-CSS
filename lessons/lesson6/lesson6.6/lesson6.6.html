@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style6.6.css">
+</head>
+<body>
+<form class="form-registration">
+    <label for="name">Введіть своє ім'я </label>
+    <input type="text" id="name" name="name" placeholder="Anna" required> <sup>*</sup>
+
+    <label for="email">Введіть свій імейл</label>
+    <input type="email" name="email" id="email" placeholder="email.com" required> <sup>*</sup>
+
+    <label for="password">Введіть свій пароль</label>
+    <input type="password" name="password" id="password" placeholder="qwerty" required> <sup>*</sup>
+
+    <label for="age">Введіть свій вік</label>
+    <input type="number" name="age" id="age" min="18" max="100">
+
+    <input type="time">
+
+    <label>Стать</label>
+    <label><input type="radio" name="gender" value="male">Чоловіча</label>
+    <label><input type="radio" name="gender" value="female">Жіноча</label>
+
+    <label>
+        <input type="checkbox" name="newsletter" value="newsletter">Підписатись на новитни.
+    </label>
+
+    <label for="lorem">Країна</label>
+    <select id="lorem">
+        <option value="">Оберіть країну</option>
+        <option value="ua">Україна</option>
+        <option value="ca">Канада</option>
+        <option value="usa">США</option>
+        <option value="uk">Великобританія</option>
+    </select>
+
+    <label for="phone"></label>
+    <select id="phone">
+        <optgroup label="Apple">
+            <option value="x">IPhone X</option>
+            <option value="7">IPhone 7</option>
+            <option value="xs">IPhone XS</option>
+        </optgroup>
+        <optgroup label="Samsung">
+            <option value="a16">Samsung A16</option>
+            <option value="a32">Samsung A32</option>
+            <option value="a55">Samsung A55</option>
+        </optgroup>
+    </select>
+
+    <label for="comment"></label>
+    <textarea id="comment" rows="4" cols="50">
+
+    </textarea>
+
+    <div>
+        <input type="submit">
+        <input type="reset">
+    </div>
+
+</form>
+
+</body>
+</html>
