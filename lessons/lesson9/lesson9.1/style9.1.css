@@ -1,0 +1,21 @@
+*{
+    margin:0;
+}
+.wrapper{
+    display: grid;
+    height: 100vh;
+    background: grey;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 50px;
+}
+.item{
+    background-color: palevioletred;
+    border: 1px solid;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper div:nth-child(5){
+    background-color: #d03f0c;
+}

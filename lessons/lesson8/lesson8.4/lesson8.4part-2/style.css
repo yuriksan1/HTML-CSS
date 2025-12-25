@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background: #161622;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse-1 {
+    width: 396px;
+    height: 396px;
+    border-radius: 396px;
+    opacity: 0.5;
+    border: 48px solid #6F1DF4;
+    position: absolute;
+    top: -210px;
+    left: -200px;
+}
+
+.ellipse-2 {
+    width: 260px;
+    height: 260px;
+    opacity: 0.5;
+    border: 48px solid #6F1DF4;
+    border-radius: 260px;
+    position: absolute;
+    top: -20px;
+    right: -120px;
+}
+
+.wrapper h2 {
+    font-weight: 700;
+    font-size: 180px;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #FFFFFFE5;
+}
+
+.wrapper h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: #FFFFFFE5;
+    margin-top: 15px;
+}
+
+.wrapper p {
+    width: 533px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFFBF;
+    margin: 15px 0 40px 0;
+}
+
+.wrapper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.button-1 {
+    width: 212px;
+    height: 64px;
+    opacity: 1;
+    gap: 8px;
+    border-radius: 32px;
+    background: #6F1DF4;
+
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.button-2 {
+    width: 168px;
+    height: 64px;
+    gap: 8px;
+    border-radius: 32px;
+    background: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+
+
+}

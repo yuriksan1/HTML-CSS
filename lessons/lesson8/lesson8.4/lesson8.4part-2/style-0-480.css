@@ -1,0 +1,61 @@
+@media screen and (max-width: 480px) {
+    .ellipse-1, .ellipse-2 {
+        display: none;
+    }
+    .wrapper{
+        padding: 0 16px;
+    }
+    .wrapper h2{
+        font-weight: 700;
+        font-size: 110px;
+        line-height: 100%;
+        letter-spacing: -0.5px;
+        color: #FFFFFFE5;
+    }
+    .wrapper h3{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 120%;
+        color: #FFFFFFE5;
+        margin: 16px 0 8px 0;
+
+    }
+    .wrapper p{
+        width: 100%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: #FFFFFFBF;
+        margin: 9px 0 24px 0;
+    }
+    .wrapper div{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .button-1{
+        width: 100%;
+        height: 64px;
+        gap: 8px;
+        border-radius: 32px;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+        color: #FFFFFF;
+
+    }
+    .button-2{
+        width: 100%;
+        height: 64px;
+        gap: 8px;
+        border-radius: 32px;
+        background: #FFFFFF;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+        color: #000000;
+
+
+    }
+}

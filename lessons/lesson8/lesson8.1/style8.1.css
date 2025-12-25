@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    height: 50vh;
+    background-color: grey;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #d03f0c;
+}

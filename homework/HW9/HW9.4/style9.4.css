@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin:0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "section-1 aside-1"
+    "section-2 aside-1"
+    "section-2 aside-2"
+    "section-3 aside-2"
+    "footer footer";
+}
+header{
+    grid-area: header;
+    background: #8D8484;
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1{
+    grid-area: section-1;
+    background: #776969;
+}
+.section-2{
+    grid-area: section-2;
+    background: #643030;
+}
+.section-3{
+    grid-area: section-3;
+    background: #441818;
+}
+aside{
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside-1{
+    grid-area: aside-1;
+    background: #937575;
+}
+.aside-2{
+    grid-area: aside-2;
+    background: #644C4C;
+}
+footer{
+    grid-area: footer;
+    background: #BDBDBD;
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
